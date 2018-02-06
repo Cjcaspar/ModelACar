@@ -48,7 +48,7 @@ public class Car {
 
     public void setMake() {
         Scanner scan = new Scanner(System.in);
-        System.out.println(" ");
+        System.out.println("What is your car's make?");
         make = scan.nextLine();
     }
 
@@ -58,7 +58,7 @@ public class Car {
 
     public void setModel() {
         Scanner scan = new Scanner(System.in);
-        System.out.println(" ");
+        System.out.println("What is your car's model?");
         model = scan.nextLine();
     }
 
@@ -68,7 +68,7 @@ public class Car {
 
     public void setYear() {
         Scanner scan = new Scanner(System.in);
-        System.out.println(" ");
+        System.out.println("What is your car's year?");
         year = scan.nextInt();
         scan.nextLine();
     }
